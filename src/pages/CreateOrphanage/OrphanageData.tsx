@@ -10,10 +10,10 @@ import {
   TouchableOpacity,
   Image,
 } from "react-native";
-import { Feather } from "@expo/vector-icons";
+import { Feather } from '@expo/vector-icons';
 import { RectButton } from "react-native-gesture-handler";
-import { useNavigation, useRoute } from "@react-navigation/native";
-import * as ImagePicker from "expo-image-picker";
+import { useNavigation, useRoute } from '@react-navigation/native';
+import * as ImagePicker from 'expo-image-picker';
 import api from "../../services/api";
 
 interface RouteParams {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, StyleSheet, Dimensions, Text } from "react-native";
 
-import { useNavigation } from "@react-navigation/native";
+import { useNavigation } from '@react-navigation/native';
 import { RectButton } from "react-native-gesture-handler";
 import MapView, { MapEvent, Marker } from "react-native-maps";
 
@@ -23,8 +23,8 @@ export default function SelectMapPosition() {
     <View style={styles.container}>
       <MapView
         initialRegion={{
-          latitude: -14.7921557,
-          longitude: -39.2771924,
+          latitude: -12.623751,
+          longitude: -38.9981043,
           latitudeDelta: 0.008,
           longitudeDelta: 0.008,
         }}
